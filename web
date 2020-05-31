@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>雪梨作业 web 雪梨在线</title>
+	<style>
+		* {
+			margin: 0px;
+			padding: 0px;
+		}
+		li{
+			list-style: none;
+		}
+		.header{
+			width: 1000px;
+			height: 100px;
+			border-top: 5px soild #284c7e;
+			margin: 0 auto;
+		}
+		.nav{
+			width:205px;
+            height:20px;
+			border-top: 1px soild #284c7e;
+			display: inline-block;
+			float: left;
+		}
+		.banner{
+			width:960px;
+            height:210px;
+            background:rgba(28,3,108,1);
+            margin: 0 auto;
+        }
+        .blue{
+        	width:170px;
+            height:39px;
+            font-size:40px;
+            font-family:Microsoft YaHei;
+            font-weight:bold;
+            color:rgba(0,164,255,1);
+        }
+        
+        .first{
+        	float: left;
+        	}
+        .search{
+        	float: right;
+        }
+        .black{
+        	width:70px;
+            height:16px;
+            float: right;
+        }
+        li{
+        	display: inline-block;
+        }
+        .nav2{
+        	width:95px;
+            height:210px;
+            background:rgba(0,0,0,1);
+            opacity:0.3;
+        }
+        .second {
+        	width:51px;
+            height:183px;
+            font-size:7px;
+            font-family:Microsoft YaHei;
+            font-weight:400;
+            color:rgba(0,180,255,1);
+            line-height:22px;
+        }
+        .background{
+        	width:960px;
+            height:210px;
+            background:rgba(28,3,108,1);
+           
+        }
+        .one{
+            display: inline-block;
+            padding: 3.75px;
+
+        }
+        .two{
+        	display: inline-block;
+            padding: 3.75px;
+        }
+        .three{
+        	display: inline-block;
+            padding: 3.75px;
+        }
+        .four{
+        	display: inline-block;
+            padding: 3.75px;
+        }
+        .left{
+        	width:553px;
+            height:9px;
+            font-size:8px;
+            font-family:Microsoft YaHei;
+            font-weight:bold;
+            color:rgba(0,164,255,1);
+        }
+        .right{
+        	width:553px;
+            height:9px;
+            font-size:8px;
+            font-family:Microsoft YaHei;
+            font-weight:bold;
+            color:rgba(0,164,255,1);
+        }
+        .third{
+        	width:600px;
+            height:30px;
+            background:rgba(255,255,255,1);
+            box-shadow:0px 1px 2px 0px rgba(118,118,118,0.2);
+        }
+        .img{
+        	width:114px;
+            height:78px;
+        }
+        .link{
+
+        }
+        .num{
+        	width:24px;
+            height:48px;
+            font-size:6px;
+            font-family:SimSun;
+            font-weight:400;
+            color:rgba(51,51,51,1);
+            line-height:11px;
+        }
+        .h1{
+        	width:32px;
+            height:9px;
+            font-size:8px;
+            font-family:Microsoft YaHei;
+            font-weight:400;
+            color:rgba(51,51,51,1);
+            line-height:11px;
+        }
+	</style>
+
+</head>
+<body>
+	<div class="header">
+		<div class="logo">
+			<p class="blue">雪梨在线</p>
+	    </div>
+	    <div class="nav1">
+	        <ul class="first">
+	    	    <li>首页</li>
+	    	    <li>课程</li>
+	    	    <li>职业规划</li>
+	        </ul>
+	    </div>
+	    <div class="search">
+		    <input type="text" value="搜索">
+		    <p class="black">个人中心</p>
+	    </div>
+	</div>
+	<div claa="header2">    
+	    <div class="banner">
+		    <img src="image/banner.png">
+	    </div> 
+	    <div class="nav2">
+	    	<ul class="second">
+	    		<li>前端开发</li>
+	    		<li>后端开发</li>
+	    		<li>移动开发</li>
+	    		<li>人工智能</li>
+	    		<li>商业预测</li>
+	    		<li>云计算&大数据</li>
+	    		<li><运维&从测试/li>
+	    		<li>UI设计</li>
+	    		<li>产品</li>
+	    	</ul>
+	    </div>
+	    <div class="background"></div>
+	</div>
+	<div class="third">
+		<ul>
+			<li class="left">精品推荐</li>
+			<li class="hobby">JQuery</li>
+			<li class="hobby">Spark</li>
+			<li class="hobby">MySQL</li>
+			<li class="hobby">Javaweb</li>
+			<li class="hobby">MySQL</li>
+			<li>Javaweb</li>
+			<li class="right">修改兴趣</li>
+		</ul>
+	<div class="one">
+		<img src="image/1.png">
+		<img src="image/2.png">
+		<img src="image/3.png">
+		<img src="image/4.png">
+		<img src="image/4.png">
+	</div>
+	<div class="two">
+		<img src="image/1.png">
+		<img src="image/2.png">
+		<img src="image/3.png">
+		<img src="image/4.png">
+		<img src="image/4.png">
+	</div>
+	<div class="three">
+		<img src="image/12.png">
+		<img src="image/13.png">
+		<img src="image/14.png">
+		<img src="image/15.png">
+		<img src="image/16.png">
+	</div>
+	<div class="four">
+		<img src="image/5.png">
+		<img src="image/6.png">
+		<img src="image/7.jpg">
+		<img src="image/8.jpg">
+	</div>
+	<div class="bottom">
+		<p class="top">雪梨教育</p>
+		<p>致力于普及中国最好的教育，与中国一流大学和机构合作提供在线教程</p>
+		<ul class="link">
+			<h1>关于雪梨网</h1>
+			<li class="num">关于</li>
+			<li class="num">管理团队</li>
+			<li class="num">工作机会</li>
+			<li class="num">客户服务</li>
+			<li class="num">帮助</li>
+		</ul>
+		<ul class="link" >
+			<h1>新手指南</h1>
+			<li class="num">如何注册</li>
+			<li class="num">如何选课</li>
+			<li class="num">如何拿到毕业证</li>
+			<li class="num">学分是什么</li>
+			<li class="num">考试未通过怎么办</li>
+		</ul>
+		<ul class="link">
+			<h1>合作伙伴</h1>
+			<li class="num">合作机构</li>
+			<li class="num">合作导航</li>
+		</ul>
+	</div>
+	</div>
+	
+</body>
+</html>
